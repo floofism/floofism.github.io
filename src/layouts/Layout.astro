@@ -1,7 +1,6 @@
 ---
 const { page } = Astro.props;
 import Sidebar from "src/components/Sidebar.astro";
-import HeaderSelect from "src/components/HeaderSelect.astro";
 ---
 
 <!doctype html>
@@ -16,7 +15,6 @@ import HeaderSelect from "src/components/HeaderSelect.astro";
 	</head>
 	<body>
 		<Sidebar page={page}></Sidebar>
-		<HeaderSelect></HeaderSelect>
 
 		<slot />
 	</body>
